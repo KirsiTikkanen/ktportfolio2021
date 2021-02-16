@@ -45,16 +45,16 @@ h2
 }
 
 .container {
+  background-image: url('/assets/images/frontpage-image-mountain.jpg');
   justify-content: center;
   position: relative;
   text-align: center;
   color: white;
+  min-height: 800px;
   padding: 0px; 
   margin-top: 0px;
   max-width: 100%;
   height: auto;
-  display: flex;
-  
 }
 
 .text-on-image{
