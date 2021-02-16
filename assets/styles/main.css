@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: rgb(241, 240, 231);
@@ -44,15 +45,16 @@ h2
 }
 
 .container {
+  justify-content: center;
   position: relative;
   text-align: center;
   color: white;
-}
-
-
-.responsive {
+  padding: 0px; 
+  margin-top: 0px;
   max-width: 100%;
   height: auto;
+  display: flex;
+  
 }
 
 .text-on-image{
@@ -63,12 +65,6 @@ h2
   transform: translate(-50%, -50%);
 }
 
-
-
-#frontpage-image {
-padding: 0px; 
-margin-top: 0px;
-}
 
 .button1 {
 display:inline-block;
