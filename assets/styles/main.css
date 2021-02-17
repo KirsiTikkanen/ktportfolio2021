@@ -2,8 +2,8 @@
 .container {
   background-image: url("https://github.com/KirsiTikkanen/ktportfolio2021/blob/main/assets/images/frontpage-image-mountain-ver2.jpg?raw=true");
   text-align: center;
-  min-height: 750px;
-  padding: 80px; 
+  min-height: 800px;
+  padding-top: 30px; 
   max-width: 100%;
 }
 
@@ -33,9 +33,17 @@ div.white-frontpage-text  {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
 div.white-frontpage-text  {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
+
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+  div.container  {
+    min-height: 500px;
+    }
+  }
 
 footer
 {
@@ -69,11 +77,11 @@ color: #FFFFFF;
 #white-frontpage {
  letter-spacing:4px;
  text-align: center;
- align-content: center;
  color: rgb(255, 255, 255);
  font-weight: bold;
  padding-top: 80px;
  padding-bottom: 40px;
+ display: inline-flex;
 }
 
 h2
