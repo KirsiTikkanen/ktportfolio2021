@@ -1,4 +1,12 @@
 
+.container {
+  background-image: url("https://github.com/KirsiTikkanen/ktportfolio2021/blob/main/assets/images/frontpage-image-mountain-ver2.jpg?raw=true");
+  text-align: center;
+  min-height: 750px;
+  padding: 80px; 
+  max-width: 100%;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: rgba(244, 248, 248, 0.966);
@@ -11,7 +19,23 @@ p {
   color: #612683;
   max-width: 500px;
   display: inline-flex;
+  margin-left: 20px;
+  margin-right: 20px;
   }
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+div.white-frontpage-text  {
+    font-size: 100px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+div.white-frontpage-text  {
+    font-size: 60px;
+  }
+}
 
 footer
 {
@@ -42,13 +66,14 @@ article {
 color: #FFFFFF;
 }
 
-h1 {
- font-size: 55pt;
+#white-frontpage {
  letter-spacing:4px;
  text-align: center;
- margin-left: 20px;
- margin-right: 20px;
- margin-bottom:-4px;
+ align-content: center;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ padding-top: 80px;
+ padding-bottom: 40px;
 }
 
 h2
@@ -60,30 +85,15 @@ h2
  color: #612683;
 }
 
-.otsikko {
+
+
+.header {
 margin-top: 0px;
 margin-bottom: 20px;
 }
 
-.container {
-  background-image: url('/assets/images/frontpage-image-mountain-ver2.jpg');
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  min-height: 800px;
-  padding: 0px; 
-  margin-top: 0px;
-  max-width: 100%;
-  height: auto;
-}
 
-.text-on-image{
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 
 .button1 {
@@ -135,11 +145,12 @@ text-align: center;
 
 
 #box-text-wrap {
-padding-top: 20px;
-padding-bottom: 50px;
-margin-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 80px;
+margin-bottom: 30px;
 margin-top: 50px;
 text-align: center;
 background-color: #612683;
 color: rgb(242, 242, 248);
 }
+
