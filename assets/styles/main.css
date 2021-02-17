@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: rgb(245, 235, 245);
+  background-color: rgba(244, 248, 248, 0.966);
 }
 
 p {
@@ -70,7 +70,6 @@ margin-bottom: 20px;
   justify-content: center;
   position: relative;
   text-align: center;
-  color: white;
   min-height: 800px;
   padding: 0px; 
   margin-top: 0px;
