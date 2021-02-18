@@ -1,62 +1,85 @@
 
-.container {
-  background-image: url("https://github.com/KirsiTikkanen/ktportfolio2021/blob/main/assets/images/frontpage-image-mountain-ver2.jpg?raw=true");
-  text-align: center;
-  min-height: 800px;
-  padding-top: 30px; 
-  max-width: 100%;
-}
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: rgba(244, 248, 248, 0.966);
 }
 
+#header-wrapper{
+  background-color: rgba(244, 248, 248, 0.966);
+  padding: 25px;
+  }
+
+.container {
+  background-image: url("https://github.com/KirsiTikkanen/ktportfolio2021/blob/main/assets/images/frontpage-image-mountain-ver2.jpg?raw=true");
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  max-width: 100%;
+  padding-top: 100px; 
+  padding-left: 15px;
+}
+
+/* White header on top of image */
+#white-frontpage-header {
+  letter-spacing:3px;
+  line-height: 1.1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: inline-flex;
+ }
+
+h2
+{
+ font-size: 30pt;
+ letter-spacing:2px;
+ margin-bottom:-4px;
+ text-align: center;
+ margin-top: 0px;
+margin-bottom: 20px;
+max-width: 600px;
+display: inline-flex;
+}
+
+.white-h2{
+  color: #FFFFFF;
+}
+
+.color-h2{
+  color:#6420a3;
+}
+
 p {
   font-size: 12pt;
+  line-height: 1.6;
   text-align: center;
   align-content: center;
-  color: #612683;
-  max-width: 500px;
+  color: #6420a3;
+  max-width: 600px;
   display: inline-flex;
   margin-left: 20px;
   margin-right: 20px;
   }
 
-  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-div.white-frontpage-text  {
-    font-size: 100px;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-div.white-frontpage-text  {
-    font-size: 50px;
-  }
-}
-
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-  div.container  {
-    min-height: 500px;
-    }
-  }
-
-footer
-{
-color: #612683;
+.p-text-wrap {
+margin-bottom: 70px;
+margin-top: 70px;
 text-align: center;
-font-family:'Source Sans Pro', sans-serif;
-padding: 20px;
 }
+
+.white-p {
+  color: #FFFFFF;
+  }
+
 
 li {
   font-size: 12pt;
   text-align: center;
-  color: #612683;
+  color: #6420a3;
   list-style: none;
   margin: 15px;
 }
@@ -65,92 +88,7 @@ article {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-
-.white-h2{
-  color: #FFFFFF;
-}
-
-.white-p {
-color: #FFFFFF;
-}
-
-#white-frontpage {
- letter-spacing:4px;
- text-align: center;
- color: rgb(255, 255, 255);
- font-weight: bold;
- padding-top: 80px;
- padding-bottom: 40px;
- display: inline-flex;
-}
-
-h2
-{
- font-size: 30pt;
- letter-spacing:2px;
- margin-bottom:-4px;
- text-align: center;
- color: #612683;
-}
-
-
-
-.header {
-margin-top: 0px;
-margin-bottom: 20px;
-}
-
-
-
-
-
-.button1 {
-display:inline-block;
-border: 2px solid #FFFFFF;
-text-decoration:none;
-padding: 4px 24px;
-margin: 4px 2px;
-color:#FFFFFF;
-
-font-family:'Source Sans Pro',sans-serif;
-font-size:12pt;
-letter-spacing:1px;
-text-decoration: none;
-text-align:center;
-margin-top: 20px;
-}
-
-.button1:hover {
-color:#612683;
-background-color:#FFFFFF;
-  }
   
-.button2 {
-display:inline-block;
-border: 2px solid #612683;
-text-decoration:none;
-padding: 4px 24px;
-margin: 4px 2px;
-color:612683;
-font-family:'Source Sans Pro',sans-serif;
-font-size:12pt;
-letter-spacing:1px;
-text-decoration: none;
-text-align:center;
-margin-top: 20px;
-}
-
-.button2:hover {
-color:#FFFFFF;
-background-color:#612683;
-}
-
-#p-text-wrap {
-margin-bottom: 70px;
-margin-top: 70px;
-text-align: center;
-}
-
 
 #box-text-wrap {
 padding-top: 50px;
@@ -158,7 +96,81 @@ padding-bottom: 80px;
 margin-bottom: 30px;
 margin-top: 50px;
 text-align: center;
-background-color: #612683;
+background-color: #6420a3;
 color: rgb(242, 242, 248);
 }
 
+footer
+{
+color: #6420a3;
+text-align: center;
+font-family:'Source Sans Pro', sans-serif;
+padding: 20px;
+}
+
+/* Buttons */
+
+.button1 {
+  display:inline-block;
+  border-bottom: 2px solid #FFFFFF;
+  text-decoration: none;
+  padding: 3px; 
+  color:#FFFFFF;
+  
+  font-family:'Source Sans Pro',sans-serif;
+  font-size:12pt;
+  letter-spacing:1px;
+  text-decoration: none;
+  text-align:center;
+  margin-top: 10px;
+  }
+  
+  .button1:hover {
+  color:#6420a3;
+  background-color:#FFFFFF;
+    }
+    
+  .button2 {
+  display:inline-block;
+  border-bottom: 2px solid #6420a3;
+  color: #6420a3;
+  text-decoration:none;
+  padding: 4px;
+  color:612683;
+  font-family:'Source Sans Pro',sans-serif;
+  font-size:12pt;
+  letter-spacing:1px;
+  text-decoration: none;
+  text-align:center;
+  margin-top: 20px;
+  }
+  
+  .button2:hover {
+  color:#FFFFFF;
+  background-color:#6420a3;
+  }
+
+  /* Responsiveness */
+  
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.white-frontpage-header  {
+      font-size: 100px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+  div.white-frontpage-header  {
+      font-size: 50px;
+    }
+  }
+  
+    
+    /* If the screen size is 600px wide or less, set the container of <div> height to 500px */
+    @media screen and (max-width: 600px) {
+    div.container  {
+      min-height: 400px;
+    
+      }
+    }
