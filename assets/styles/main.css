@@ -56,7 +56,7 @@ body {
 }
 
 #profile-image {
-  position: relative;
+  position:relative;
   display: inline-block;
   border-radius: 50%;
   max-width: 250px;
@@ -216,6 +216,6 @@ article {
 
 @media screen and (max-width: 400px) {
   div.container { 
-    background-image: url('/assets/images/frontpage-image-500px.jpg'); 
+    background-image: url('https://github.com/KirsiTikkanen/ktportfolio2021/blob/main/assets/images/frontpage-image-500px.jpg'); 
   }
 }
