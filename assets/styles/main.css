@@ -24,23 +24,6 @@ body {
   background-color: rgba(244, 248, 248, 0.966);
 }
 
-.button3 {
-  display: inline-block;
-  text-decoration: none;
-  padding-right: 20px;
-  color: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 12pt;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.button3:hover
-{
-  color: #4ad0f1;
-}
-
 
 #header-wrapper {
   position: relative;
@@ -81,6 +64,7 @@ body {
   padding-bottom: 40px;
   display: inline-flex;
 }
+
 
 .white-h2 {
   color: #ffffff;
@@ -175,6 +159,8 @@ article {
 .button1:hover {
   color: #6420a3;
   background-color: #ffffff;
+  
+  
 }
 
 .button2 {
@@ -195,6 +181,23 @@ article {
 .button2:hover {
   color: #ffffff;
   background-color: #6420a3;
+}
+
+.button3 {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 20px;
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button3:hover
+{
+  color: #4ad0f1;
 }
 
 #about-me
@@ -218,7 +221,12 @@ article {
 }
 
 #image-container {
-  border: 2px solid;
+  background-color: #d2c7d4;
+  display:flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  padding-top: 50px;
 
 }
 
